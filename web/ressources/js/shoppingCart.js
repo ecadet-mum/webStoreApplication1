@@ -37,7 +37,6 @@ function getLoginPage(){
     $("#idTitlePage").innerText="Login"
     $("#idTitlePage").show();
     var url=urlPage+"login";
-
     $.get(url).done(processResponse)
         .fail(processFailure);
 }

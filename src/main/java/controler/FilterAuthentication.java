@@ -30,7 +30,7 @@ public class FilterAuthentication implements Filter {
             chain.doFilter(req, resp);
         }else{
             req.setAttribute("errorLogin","User or password invalid");
-            RequestDispatcher rqDis=req.getRequestDispatcher("index.jsp");
+            RequestDispatcher rqDis=req.getRequestDispatcher("WEB-INF/views/index.jsp");
             rqDis.forward(req,resp);
         }
 

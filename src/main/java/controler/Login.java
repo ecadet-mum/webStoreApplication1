@@ -64,7 +64,7 @@ public class Login extends HttpServlet {
                 session.invalidate();
             }
         }
-        response.sendRedirect("index.jsp");
+        response.sendRedirect("WEB-INF/views/index.jsp");
 
 
 
