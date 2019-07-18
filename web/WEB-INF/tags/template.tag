@@ -22,13 +22,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Emmanuel WatchShop - Responsive HTML CSS Template</title>
-        <!--
 
-        Template 2088 Big City
-
-        http://www.tooplate.com/view/2088-big-city
-
-        -->
 
 
         <link href="<c:url value='/ressources/css/myPage.css'/>" type="text/css" rel="stylesheet"/>
