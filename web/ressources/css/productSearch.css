@@ -1,0 +1,162 @@
+
+#divPrincipal{
+    position: relative;
+    height: 100%;
+    overflow: auto;
+}
+
+
+#divMain{
+    margin-left: 20%;
+    display: block;
+    width: 60%;
+
+    box-sizing: border-box;
+    clear: both;
+}
+
+#divLeft{
+    position:absolute;
+    left: 0px;
+    width: 20%;
+    height: 50%;
+    border: 2px solid gray;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+
+#divRight{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    width: 20%;
+    height: 50%;
+    border: 2px solid gray;
+    margin-left: 2%;
+    box-sizing: border-box;
+}
+
+
+button {
+    width: 100%;
+    background: #0179BE;
+    border: 1px solid #4a8db3;
+    padding: 0.4em 0.8em 0.45em 0.8em;
+    letter-spacing: 0.8px;
+    border-radius: 3px;
+    color: antiquewhite;
+}
+
+button:hover{
+    background: linear-gradient(#276488, #0179BE);
+    color: chartreuse;
+}
+
+
+
+
+.items-Container{
+    display: inline-block;
+    width: 200px;
+    min-height: 200px;
+    padding: 10px;
+    border: 1px solid greenyellow;
+    box-sizing: border-box;
+    box-shadow:
+            1px 1px #53a7ea,
+            2px 2px #53a7ea,
+            3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+
+}
+.image-Container img{
+
+    width: 180px;
+    height: 200px;
+
+}
+
+.colors{
+    position: absolute;
+    bottom: 7px;
+    width: 87%;
+    margin: 0;
+    left: 0;
+}
+.product-Info{
+    margin: 5px 0 10px 0;
+    font-family: 'exp-regular';
+    font-size: 14px;
+
+}
+.price-Info{
+
+}
+.regular-Price{
+    color: #000;
+}
+.discount{
+    color: #bb2525;
+}
+.color-Info{
+    float: right;
+    margin-right: 3.5rem;
+}
+.name-Info{
+
+}
+.promo-Info{
+    color: #575757;
+    margin-bottom: 30px;
+}
+
+
+.items-Container2{
+    display: inline-block;
+    width: 110px;
+    min-height: 30px;
+    padding: 10px;
+    border: 1px solid greenyellow;
+
+
+}
+.image-Container2 img{
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.colors2{
+    position: absolute;
+    bottom: 7px;
+    width: 87%;
+    margin: 0;
+    left: 0;
+}
+.product-Info2{
+    font-family: 'exp-regular';
+    font-size: 10px;
+    margin: 5px 0 10px 0;
+}
+.price-Info2{
+
+}
+.regular-Price2{
+    color: #000;
+}
+.discount2{
+    color: #bb2525;
+}
+.color-Info2{
+    float: right;
+    margin-right: 3.5rem;
+}
+.name-Info2{
+
+}
+.promo-Info2{
+    color: #575757;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,151 @@
+
+
+#divPrincipal{
+    position: relative;
+    height: 100%;
+
+    //border: 1px solid yellowgreen;
+
+}
+
+
+#divMain{
+    height: 70%;
+    width: 80%;
+    overflow: auto;
+    box-sizing: border-box;
+    clear: both;
+    //border: 1px solid red;
+
+}
+
+
+#divRight{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    width: 20%;
+    height: 50%;
+    //border: 2px solid gray;
+    margin-left: 2%;
+    box-sizing: border-box;
+    padding-left: 10px;
+
+}
+
+#idShop{
+    color: navajowhite;
+    text-shadow: 2px 2px 4px greenyellow;
+}
+
+
+button {
+    width: 100%;
+    background: #0179BE;
+    border: 1px solid #4a8db3;
+    padding: 0.4em 0.8em 0.45em 0.8em;
+    letter-spacing: 0.8px;
+    border-radius: 3px;
+    color: antiquewhite;
+}
+
+button:hover{
+    background: linear-gradient(#276488, #0179BE);
+    color: chartreuse;
+}
+
+
+
+
+.items-Container{
+    display: inline-block;
+    width: 200px;
+    min-height: 200px;
+    padding: 10px;
+    //border: 1px solid greenyellow;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 antiquewhite;
+    box-sizing: border-box;
+    /*box-shadow:
+            1px 1px #53a7ea,
+            2px 2px #53a7ea,
+            3px 3px #53a7ea;*/
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    color: antiquewhite;
+
+}
+.image-Container img{
+
+    width: 180px;
+    height: 200px;
+
+}
+
+.colors{
+    position: absolute;
+    bottom: 7px;
+    width: 87%;
+    margin: 0;
+    left: 0;
+}
+.product-Info{
+    margin: 5px 0 10px 0;
+    font-family: 'exp-regular';
+    font-size: 14px;
+    color: navajowhite;
+
+}
+.price-Info{
+
+}
+.regular-Price{
+    color: yellowgreen;
+}
+.discount{
+    color: #bb2525;
+}
+.color-Info{
+    float: right;
+    margin-right: 3.5rem;
+    color: yellowgreen;
+}
+.name-Info{
+
+}
+.promo-Info{
+    color: wheat;
+    margin-bottom: 30px;
+}
+
+#idNumberItem{
+    color: #0b0b0b;
+    width: 40px;
+    height: 20px;
+    font-family: 'exp-regular';
+    font-size: 10px;
+}
+
+#idNameQuantity{
+
+    color: navajowhite;
+
+    font-family: 'exp-regular';
+    font-size: 12px;
+}
+
+#idMessage{
+    position: absolute;
+    font-size: 14px;
+    display: none;
+    top: 50%;
+    left: 40%;
+    right: 60%;
+    width: 200px;
+    height: 120px;
+    border: 1px solid gray;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: darkblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 antiquewhite;
+}

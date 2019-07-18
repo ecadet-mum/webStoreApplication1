@@ -1,0 +1,137 @@
+.total{
+    color: navajowhite;
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+#idShopCenter{
+    position: relative;
+    height: 100%;
+    width: 700px;
+
+border: 1px solid yellowgreen;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 antiquewhite;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.formCart{
+    display: inline-block;
+    padding-bottom: 0px;
+}
+#idShopRight{
+    position:absolute;
+    left:0px;
+    //height: 70%;
+    width: 80%;
+   // box-sizing: border-box;
+    //clear: both;
+//border: 1px solid red;
+    overflow: auto;
+
+
+
+}
+
+#idShoppingView{
+
+    color: navajowhite;
+    text-shadow: 2px 2px 4px greenyellow;
+}
+
+#idShopProcess{
+    top: 0px;
+
+    width: 20%;
+    //height: 50%;
+//border: 2px solid gray;
+    margin-left: 80%;
+    //box-sizing: border-box;
+   // padding-left: 10px;
+
+
+}
+
+
+
+
+#idProceedCheckout,#idContinueShopping {
+    font-size: 14px;
+    width: 180px;
+    background: #0179BE;
+    border: 1px solid #4a8db3;
+    letter-spacing: 0.2px;
+    border-radius: 3px;
+    color: antiquewhite;
+    margin-right: 2px;
+    margin-top: 4px;
+    padding-bottom: 0px;
+
+}
+
+#idContinueShopping:hover{
+    background: linear-gradient(#276488, #0179BE);
+    color: chartreuse;
+}
+#idProceedCheckout:hover{
+    background: linear-gradient(#276488, #0179BE);
+    color: chartreuse;
+}
+
+
+
+
+
+.items-Container2{
+    display: inline-block;
+    width: 150px;
+    min-height: 30px;
+    padding: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 antiquewhite;
+    box-sizing: border-box;
+
+}
+.image-Container2 img{
+
+    width: 145px;
+    height: 120px;
+
+}
+
+
+.colors2{
+    position: absolute;
+    bottom: 7px;
+    width: 87%;
+    margin: 0;
+    left: 0;
+}
+.product-Info2{
+    font-family: 'exp-regular';
+    font-size: 10px;
+    margin: 5px 0 10px 0;
+    color: wheat;
+}
+.price-Info2{
+
+}
+.regular-Price2{
+    color: yellowgreen;
+}
+.discount2{
+    color: #bb2525;
+}
+.color-Info2{
+    float: right;
+    margin-right: 3.5rem;
+    color: wheat;
+}
+.name-Info2{
+
+}
+.promo-Info2{
+    color: #575757;
+    margin-bottom: 30px;
+}

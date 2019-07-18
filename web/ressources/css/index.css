@@ -1,0 +1,37 @@
+
+div{
+ padding-left: 10px;
+    padding-right: 10px;
+}
+
+#centerDiv{
+    width: 300px;
+    margin-left: 70%;
+    margin-right: 30%;
+    margin-top: 30px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+
+    background-image: url("bangkok-city2.jpg");
+}
+
+.buttonCart{
+    background-color: #856729;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+
+button:hover{
+    background: linear-gradient(#276488, #0179BE);
+    color: chartreuse;
+}
+
+.lableName{
+    color: antiquewhite;
+    font-size: 12px;
+}

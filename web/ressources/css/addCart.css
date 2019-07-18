@@ -1,0 +1,129 @@
+
+#contTitle{
+    color: whitesmoke;
+}
+
+#idListItem{
+
+    max-height: 330px;
+    overflow: auto;
+}
+
+#divPrincipal{
+    position: relative;
+
+}
+
+.total{
+    color: navajowhite;
+    font-size: 10px;
+    padding-right: 3px;
+}
+
+
+
+.formCart{
+    display: inline-block;
+    padding-bottom: 0px;
+}
+
+
+
+#idCheckOut {
+    font-size: 10px;
+    width: 80px;
+    background: #0179BE;
+    border: 1px solid #4a8db3;
+    letter-spacing: 0.2px;
+    border-radius: 3px;
+    color: antiquewhite;
+    margin-right: 2px;
+    margin-top: 4px;
+    padding-bottom: 0px;
+
+}
+#idContinueShopping {
+    font-size: 10px;
+    width: 110px;
+    background: #0179BE;
+    border: 1px solid #4a8db3;
+    letter-spacing: 0.2px;
+    border-radius: 3px;
+    color: antiquewhite;
+    margin-right: 2px;
+    margin-top: 4px;
+    padding-bottom: 0px;
+
+}
+
+#idContinueShopping:hover{
+    background: linear-gradient(#276488, #0179BE);
+    color: chartreuse;
+}
+#idCheckOut:hover{
+    background: linear-gradient(#276488, #0179BE);
+    color: chartreuse;
+}
+
+#idShop{
+    color: navajowhite;
+    text-shadow: 2px 2px 4px greenyellow;
+}
+
+
+
+
+
+.items-Container2{
+    display: inline-block;
+    width: 110px;
+    min-height: 30px;
+    padding: 10px;
+    //border: 1px solid greenyellow;
+    color: antiquewhite;
+    box-shadow: 5px 10px 18px red;
+   // border-bottom: 6px solid red;
+    //background-color: lightgrey;
+
+}
+.image-Container2 img{
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.colors2{
+    position: absolute;
+    bottom: 7px;
+    width: 87%;
+    margin: 0;
+    left: 0;
+}
+.product-Info2{
+    font-family: 'exp-regular';
+    font-size: 10px;
+    margin: 5px 0 10px 0;
+    color: wheat;
+}
+.price-Info2{
+
+}
+.regular-Price2{
+    color: yellowgreen;
+}
+.discount2{
+    color: #bb2525;
+}
+.color-Info2{
+    float: right;
+    margin-right: 3.5rem;
+    color: wheat;
+}
+.name-Info2{
+
+}
+.promo-Info2{
+    color: #575757;
+    margin-bottom: 30px;
+}
